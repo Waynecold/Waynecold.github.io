@@ -8,40 +8,49 @@
     <!--在头部使用CSS将应用在整个文档，body{background-color}是主体背景的颜色，p{}是段落字体的颜色-->
     <style type="text/css">
         body {
-            background-color: rgb(64, 131, 173);
+            background-color: #d3f2f8;
         }
 
         p {
-            color: white
+            color: #157284;
+            text-align: left;
         }
     </style>
 
-    <title>我的第一个HTML页面</title> <!--整个文档的标题-->
-    <link rel="shortcut icon" href="https://github.com/Waynecold/Waynecold.github.io/blob/main/favicon.ico" /><!--使用link添加ico格式的网页图标-->
+    <title>Wayne's HTML Page</title> <!--整个文档的标题-->
+
+    <link rel="shortcut icon" href="https://github.com/Waynecold/Waynecold.github.io/blob/main/favicon.ico" />
+    <!--使用link添加ico格式的网页图标-->
 </head>
 
 <body> <!--以下才是页面可见内容-->
-    <div id="header" style="background-color:#ff001e;"><!--使用div标签和css样式设定了header的设计-->
-        <hr> <!--分割线-->
-        <h1>HTML示例-一级标题</h1>
-        <hr>
+    <div id="header" style="background-color:#0e4c58; color: #d3f2f8"><!--使用div标签和css样式设定了header的设计-->
+
+        <h1>欢迎进入Wayne的HTML页面</h1>
+
     </div>
 
-    <h2>第一章-二级标题</h2>
+    <h2>一-段落和文本格式化</h2>
+
     <p>学习笔记可以从<a
             href="https://www.icloud.com.cn/pages/02eLOQ6EeO7bgrT0lBjsJF_zA#HTML%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0"
             target="_blank" rel="noopener noreferrer">这里</a>找到。</p>
-    <p>这是第二段，由于是块级元素，块级之间自动用空行分开。而使用&lt;br&gt;<br>标签，可以在段落内进行换行。</p><!--<br>标签实现段落内换行-->
-    <p><a id="C1P3">这是第三段。</a>以下使用了有序列表的标签显示的内容：
-    <ol>
+    <p>使用&lt;p&gt;标签创建段落，段落是块级元素，块级之间自动用空行分开。而使用&lt;br&gt;标签，<br>在段落内进行换行。</p>
+
+    <p><a id="C1P3">以下使用了有序列表的标签显示的内容：</a>
+
+    <ul>
         <li><b>粗体字b</b>，<i>斜体字i</i>。</li>
         <li><strong>加重字体strong</strong>，<em>着重字体em</em>，<small>小号字体small</small>，</li>
         <li>下标字<sub>sub</sub>，上标字<sup>上标字sup</sup>，</li>
         <li><ins>插入字ins</ins>，<del>删除字del</del>。</li>
-    </ol>
+    </ul>
+
     </p>
 
-    <h2>第二章</h2>
+    <hr> <!--分割线-->
+
+    <h2>二-链接</h2>
     <p>链接除了可以URL外，还可以创建书签。另见<a href="#Chapter8" style="text-decoration: none;">第八章</a></p><!--这里还使用了style去掉了链接的下划线-->
 
     <h2 style="background-color: rgb(236, 153, 45);text-align: center;">第三章-不同的样式（带有颜色背景且居中的标题）</h2>
@@ -197,21 +206,6 @@
     <h2>十三-脚本</h2>
     <p></p>
 
-    <h2>十四</h2>
-    <h2>十五</h2>
-    <h2>十六</h2>
-    <h2>十七</h2>
-    <h2>十八</h2>
-    <h2>十九</h2>
-    <h2>二十</h2>
-    <h2>二十一</h2>
-    <h2>二十二</h2>
-    <h2>二十三</h2>
-    <h2>二十四</h2>
-    <h2>二十五</h2>
-    <h2>二十六</h2>
-    <h2>二十七</h2>
-    <h2>二十八</h2>
 </body>
 
 </html>
